@@ -1,0 +1,36 @@
+doctype html
+html
+    head
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+        script(src="js/jquery.js")
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="shortcut icon", href="./images/v909.jpg", type="image/x-icon")
+        block head
+    body
+        .nav
+            .container
+                #label
+                    a(href = '#')
+                        .logo
+                    
+                .nav-block
+                    ul.menu
+                        li 
+                            a(href="/") Voitures
+                        li 
+                            a(href="/moto") Motos
+                        li 
+                            a(href="#") Locations
+                        li 
+                            a(href="#") Contactez nous
+        .top    
+        block content
+        
+        footer
+            .footer
+                .container 
+                    p Septembre 2020 &copy; #GeniusOfDigital - #GOD
+        
+        script(src="js/nav.js")

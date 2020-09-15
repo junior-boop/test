@@ -1,0 +1,149 @@
+extend layout
+
+block content
+    //- .container
+    //-     .header
+    //-         .diapo
+    //-         .clock
+    // les articles plus vue de la semaines
+    .container
+        .bannier
+            style.
+                .bn-img {
+                    display : block;
+                    width: 662px ;
+                    background-image : url(/images/car_4.jpg);
+                    background-size : cover;
+                    background-position : center;
+                }
+            .bn-img
+            .bn-desc
+                .event
+                    p La grande fête de fin d'année
+                .btn
+                    a(href="")
+                        p Cliquez ici
+
+    .container
+        .title  
+            p Tous les vehicules
+        .elements
+            - if (data.length === 0)
+                    .p base vide
+            - else
+                -for(let d of data)     
+                    .elemt
+                        style.
+                            .img {
+                                width: 208px;
+                                height: 194px;
+                                box-sizing : border-box;
+                            }
+                            .img img {
+                                position : relative;
+                                z-index : 0;
+                                height: 194px;
+
+                            }
+                            .cover {
+                                display : flex; 
+                                align-items : flex-end;
+                                position: relative;
+                                z-index : 10;
+                                top : -194px; left : 0;
+                                width: 230px;
+                                height: 194px;
+                                background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #000000 100%);
+                                box-sizing : border-box;
+                                padding : 0 12px;
+                            }
+
+                            .cover p {
+                                font-size : 20px;
+                                font-weight : 700;
+                                color : white;
+                            }
+                            .desc {
+                                padding : 0 10px;
+                            }
+                            .bs {
+                                font-size : 12px;
+                                margin-bottom : 0px;
+                            }
+                            .vil {
+                                font-size : 14px;
+                                margin-top : 0px;
+                            }
+                            .yrs {
+                                display : flex ;
+                                align-items:center;
+                                font-size : 16px;
+                                margin-bottom : 7px;
+                            }
+
+                            .yrs img {
+                                margin-right : 10px
+                            }
+                            .prix {
+                                font-size : 16px;
+                                font-weight : 700;
+                                margin-top : 0px;
+                            }
+                            .km {
+                                font-size : 16px;
+                                font-weight : 700;
+                                margin-top : 10px;
+                            }
+                            p+p {
+                                margin : 12px 0;
+                            }
+
+                            .p {
+                                display : flex;
+                                justify-content : space-between;
+                                height : 30px;
+                                margin-bottom : -20px;
+                            }
+                            .grid {
+                                display : grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                justify-content : space-between;
+                                height : 30px;
+                                margin-bottom : 20px;
+                            }
+                            .btn-elmt a {
+                                display : flex;
+                                justify-content: center;
+                                align-items : center;
+                                text-decoration : none;
+                                width: 127px;
+                                height: 35px;
+                                background-color:#FF5722;
+                                color : white;
+                            }
+                            .btn-elmt {
+                                display : flex;
+                                position : relative;
+                                bottom : -5px;
+                                justify-content:flex-end;
+                            }
+                        a(href=`/product_${d.id}`)
+                            .img
+                                img(src=`/images/${d.img_path}`, alt="#{d.img_path}")
+                                .cover
+                                    p #{d.marque} #{d.modele}
+                            .desc
+                                .year
+                                    .grid
+                                        p.yrs 
+                                            img(src=`/design/icons8-today-50.png`, width = '18px')
+                                            <strong>#{d.ans}</strong>
+                                        p.yrs 
+                                            img(src=`/design/icons8-gas-station-50.png`, width = '18px')
+                                            <strong>#{d.carburant}</strong>
+                                    
+                                    p.bs Prix de vente (Francs CFA)
+                                    .p    
+                                        p.prix #{d.prix_vent} 
+                                        p.vil #{d.ville}
+                                    

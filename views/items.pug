@@ -1,0 +1,253 @@
+extend layout
+block head
+    meta(property="og:title", content=`${data.marque} ${data.modele}`)
+    meta(property="og:description", content='Vendu sur la V909')
+    meta(property="og:image", content=`http://./images/${data.img_path[0].img}`)
+    meta(property="og:url", content=`http://./product_${data.id}`)
+    script(src="js/style.js" defer='true')
+
+block content
+    .container
+        .slide
+            style.
+                * {
+                    box-sizing : border-box
+                } 
+                .SlideContent {
+                    display : block;
+                    width : 958px;
+                    height : 610px;
+                    border : 1px solid rgba(196, 196, 196, 0.411); 
+                    border-radius : 16px;
+                    margin : 10px auto;
+                    background-color : white;
+                    overflow : hidden;
+                }
+                .mySlides {
+                    width : 100%;
+                    height : 500px;
+                    justify-content : center;
+                    align-items : center;
+                }
+                .mySlides img {
+                    box-shadow : 0 10px 50px -20px silver;
+                }
+                .prev,
+                .next {
+                display: none;
+                cursor: pointer;
+                position: relative;
+                background-color:white;
+                top: -240px;
+                width: 50px;
+                height : 50px;
+                justify-content : center;
+                align-items : center;
+                margin-top: -50px;
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 25px;
+                border : 1px solid silver;
+                user-select: none;
+                -webkit-user-select: none;
+                }
+                .prev {
+                left: 10px;
+                border-radius: 25px;
+                }
+                .next {
+                right: -895px;
+                border-radius: 25px;
+                }
+                .prev:hover,
+                .next:hover {
+                box-shadow : 0 10px 30px -10px silver ;
+                transform : all ease-in-out 0.4;
+                }
+                .row:after {
+               
+                }
+                .row{
+                    display : flex;
+                    width : 900px;
+                    margin : 20px auto;
+                    justify-content : center;
+                    align-items : center;
+                }
+                .column {
+                    display : flex;
+                    justify-content : center;
+                    align-items : center;
+                    overflow : hidden;
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 7px
+                }
+                .column + .column {
+                margin-left : 10px
+                }
+                .demo:hover {
+                opacity: 0.6;
+                }
+            .SlideContent
+                -for (d of el)
+                    .mySlides(style = 'display: none')
+                        img(src=`images/${d.img}`, alt="alt" height = '450px')
+                a.prev(onclick = 'plus(-1)') ❮
+                a.next(onclick = 'plus(1)') ❯
+                .row
+                    -for (d of el)
+                        .column
+                                img.demo.cursor(src=`images/${d.img}`, height='120px' onclick=`vu(${d.id})`)
+    
+    .container 
+        .details
+            h3 Détails #{data.marque} #{data.modele}
+            p.prix #{data.prix_vent}
+            hr
+            .contentGrid
+                .champs
+                    p.tit Boite de vitesse
+                    p #{data.bv}
+                .champs
+                    p.tit Kilometrage
+                    p #{data.km_count}
+                .champs
+                    p.tit Années
+                    p #{data.ans}
+                .champs
+                    p.tit Carburant
+                    p #{data.carburant}
+                .champs
+                    p.tit Climatisation
+                    p #{data.clim}
+                .champs
+                    p.tit Ville
+                    p #{data.ville}
+            hr
+            .bas
+                a.contact(href="") Contactez-nous
+                a.wa(href=`https://wa.me/23755733765?text=je%20suis%20intéressé%20par%20votre%20voiture%20de%20marque%20${data.marque}%20${data.modele}`) Contacte WhatsApp
+    .bande 
+        .container
+            h2.title Les voitures similaires
+            .other
+                -for(let d of other)
+                    .elemt
+                        style.
+                            .img {
+                                width: 208px;
+                                height: 194px;
+                                box-sizing : border-box;
+                            }
+                            .img img {
+                                position : relative;
+                                z-index : 0;
+                                height: 194px;
+
+                            }
+                            .cover {
+                                display : flex; 
+                                align-items : flex-end;
+                                position: relative;
+                                z-index : 10;
+                                top : -194px; left : 0;
+                                width: 230px;
+                                height: 194px;
+                                background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #000000 100%);
+                                box-sizing : border-box;
+                                padding : 0 12px;
+                            }
+
+                            .cover p {
+                                font-size : 20px;
+                                font-weight : 700;
+                                color : white;
+                            }
+                            .desc {
+                                padding : 0 10px;
+                            }
+                            .bs {
+                                font-size : 12px;
+                                margin-bottom : 0px;
+                            }
+                            .vil {
+                                font-size : 14px;
+                                margin-top : 0px;
+                            }
+                            .yrs {
+                                display : flex ;
+                                align-items:center;
+                                font-size : 16px;
+                                margin-bottom : 7px;
+                            }
+
+                            .yrs img {
+                                margin-right : 10px
+                            }
+                            .prix {
+                                font-size : 16px;
+                                font-weight : 700;
+                                margin-top : 0px;
+                            }
+                            .km {
+                                font-size : 16px;
+                                font-weight : 700;
+                                margin-top : 10px;
+                            }
+                            p+p {
+                                margin : 12px 0;
+                            }
+
+                            .p {
+                                display : flex;
+                                justify-content : space-between;
+                                height : 30px;
+                                margin-bottom : -20px;
+                            }
+                            .grid {
+                                display : grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                justify-content : space-between;
+                                height : 30px;
+                                margin-bottom : 20px;
+                            }
+                            .btn-elmt a {
+                                display : flex;
+                                justify-content: center;
+                                align-items : center;
+                                text-decoration : none;
+                                width: 127px;
+                                height: 35px;
+                                background-color:#FF5722;
+                                color : white;
+                            }
+                            .btn-elmt {
+                                display : flex;
+                                position : relative;
+                                bottom : -5px;
+                                justify-content:flex-end;
+                            }
+                        a(href=`/product_${d.id}`)
+                            .img
+                                img(src=`/images/${d.img_path[0].img}`, alt="#{d.img_path}")
+                                .cover
+                                    p #{d.marque} #{d.modele}
+                            .desc
+                                .year
+                                    .grid
+                                        p.yrs 
+                                            img(src=`/design/icons8-today-50.png`, width = '18px')
+                                            <strong>#{d.ans}</strong>
+                                        p.yrs 
+                                            img(src=`/design/icons8-gas-station-50.png`, width = '18px')
+                                            <strong>#{d.carburant}</strong>
+                                    
+                                    p.bs Prix
+                                    .p    
+                                        p.prix #{d.prix_vent} 
+                                        p.vil #{d.ville}
+    script.
+        let cars = #{car}
+        console.log(cars)

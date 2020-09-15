@@ -1,0 +1,16 @@
+{
+    "voitures" : [
+        {
+            "mark" : "Toyota",
+            "model" : ["Avensis", "Camry", "Corolla", "Hilux", "Land Cruiser", "Rav4", "Yaris"]
+        },
+        {
+            "mark" : "Mercedes",
+            "model" : ["Classe B", "Classe C", "Classe Cls", "Glc Coupe", "250", "260", "300", "320", "380", "Classe Clk"]
+        },
+        {
+            "mark" : "Peugeot",
+            "model" : ["108", "308", "301", "508", "206", "206+", "Bipper", "106" ]
+        }
+    ]
+}

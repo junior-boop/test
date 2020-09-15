@@ -1,0 +1,668 @@
+{
+  "products": [
+    {
+      "id": "XmW6i",
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "ans": 2010,
+      "km_count": 231154,
+      "prix_base": 2600000,
+      "prix_vent": 3800000,
+      "prix_fix": 2700000,
+      "carburant": "Diesel",
+      "desc": "le vehicule est propre et ne comporte aucun defauts apparent",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": "1",
+          "img": "car_2.jpg"
+        },
+        {
+          "id": "3",
+          "img": "car_4.jpg"
+        },
+        {
+          "id": "3",
+          "img": "car_4.jpg"
+        }
+      ],
+      "ville": "Yaoundé",
+      "bv": "Manuelle",
+      "clim": "oui"
+    },
+    {
+      "id": "N4llR",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": 2012,
+      "km_count": 231154,
+      "prix_base": 2600000,
+      "prix_vent": 4500000,
+      "prix_fix": 2700000,
+      "carburant": "Essence",
+      "desc": "le vehicule est propre et ne comporte aucun defauts apparent",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "imgs1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "imgs2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "imgs3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "imgs4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "imgs5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "imgs6.jpg"
+        },
+        {
+          "id": 7,
+          "img": "imgs.jpg"
+        }
+      ],
+      "ville": "Douala",
+      "bv": "Automatique",
+      "clim": "non"
+    },
+    {
+      "id": "cuDOg",
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "ans": 2005,
+      "km_count": 231154,
+      "prix_base": 2600000,
+      "prix_vent": 2800000,
+      "prix_fix": 2700000,
+      "carburant": "Diesiel",
+      "desc": "le vehicule est propre et ne comporte aucun defauts apparent",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": "1",
+          "img": "imgs1.jpg"
+        },
+        {
+          "id": "2",
+          "img": "imgs2.jpg"
+        },
+        {
+          "id": "3",
+          "img": "imgs3.jpg"
+        },
+        {
+          "id": "4",
+          "img": "imgs4.jpg"
+        },
+        {
+          "id": "5",
+          "img": "imgs5.jpg"
+        },
+        {
+          "id": "6",
+          "img": "imgs6.jpg"
+        },
+        {
+          "id": "7",
+          "img": "imgs.jpg"
+        }
+      ],
+      "ville": "Yaoundé",
+      "bv": "manuelle",
+      "clim": "oui"
+    },
+    {
+      "id": "cuDAg",
+      "marque": "Toyota",
+      "modele": "Corolla",
+      "ans": 2005,
+      "km_count": 231154,
+      "prix_base": 2600000,
+      "prix_vent": 2500000,
+      "prix_fix": 2700000,
+      "carburant": "Essence",
+      "desc": "le vehicule est propre et ne comporte aucun defauts apparent",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": "1",
+          "img": "imgs1.jpg"
+        },
+        {
+          "id": "2",
+          "img": "imgs2.jpg"
+        },
+        {
+          "id": "3",
+          "img": "imgs3.jpg"
+        },
+        {
+          "id": "4",
+          "img": "imgs4.jpg"
+        },
+        {
+          "id": "5",
+          "img": "imgs5.jpg"
+        },
+        {
+          "id": "6",
+          "img": "imgs6.jpg"
+        },
+        {
+          "id": "7",
+          "img": "imgs.jpg"
+        }
+      ],
+      "ville": "Yaoundé",
+      "bv": "Automatique",
+      "clim": "oui"
+    },
+    {
+      "id": "7yMx6",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ro-aJ",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "xOGZ2",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Ko9ng",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Yh10_",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "fwlwp",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "RTsS4",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "o4H77",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "q9weG",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cq2Yt",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "iJh3i",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "uw4i8",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    },
+    {
+      "id": "fyCo1",
+      "marque": "Toyota",
+      "modele": "Yaris",
+      "ans": "2005",
+      "km_count": "N/A",
+      "prix_base": 2700000,
+      "prix_vent": 3500000,
+      "prix_fix": 2800000,
+      "carburant": "Essence",
+      "certifie": true,
+      "img_path": [
+        {
+          "id": 1,
+          "img": "yaris1_1.jpg"
+        },
+        {
+          "id": 2,
+          "img": "yaris1_2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "yaris1_3.jpg"
+        },
+        {
+          "id": 4,
+          "img": "yaris1_4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "yaris1_5.jpg"
+        },
+        {
+          "id": 6,
+          "img": "yaris1_6.jpg"
+        }
+      ]
+    }
+  ],
+  "motos": [],
+  "count": 0
+}
