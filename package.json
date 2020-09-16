@@ -4,8 +4,8 @@
   "description": "site de Vente de vehicule d'occassion et de marque, de particuliers a particuliers, de location de vehicule et de co-voiturage",
   "main": "server.js",
   "scripts": {
-    "start": "/node_modules/.bin/netlify-lambda serve src",
-    "build": "/node_modules/.bin/netlify-lambda build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "author": "#geniusofdigital",
   "license": "ISC",
